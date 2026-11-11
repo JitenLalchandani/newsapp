@@ -1,0 +1,59 @@
+{
+  "status": "ok",
+  "totalResults": 5,
+  "articles": [
+    {
+      "source": {
+        "id": "australian-financial-review",
+        "name": "Australian Financial Review"
+      },
+      "author": "Luke Kinsella",
+      "title": "Simon Longstaff says he may have been lied to during 2018 Cricket Australia culture review after sandpapergate scandal",
+      "description": "Simon Longstaff, the author of a cultural review into Australian cricket, says he heard “whispers” that “the public record did not tell the full story”.",
+      "url": "http://www.afr.com/companies/sport/cricket-australia-s-culture-reviewer-breaks-silence-on-sandpapergate-20261111-p61csh",
+      "urlToImage": "https://static.ffx.io/images/$zoom_0.2691%2C$multiply_3%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/c_scale%2Cw_800%2Cq_88%2Cf_jpg/t_afr_no_label_no_age_social_wm/10f9291e3343482fc9cc83e92ac49fcb1457915f",
+      "publishedAt": "2026-11-10T18:00:00Z",
+      "content": "Simon Longstaff, who led a review into the culture of Cricket Australia in 2018, says he heard whispers that the public record of the infamous sandpaper cheating scandal that year was inaccurate, tha… [+412 chars]"
+    },
+    {
+      "source": { "id": "bbc-sport", "name": "BBC Sport" },
+      "author": null,
+      "title": "Khawaja book: Sandpapergate a stench Cricket Australia cannot shake",
+      "description": "Usman Khawaja's autobiography has exposed the limbo Australian cricket finds itself stuck in over the sandpaper scandal, writes Stephan Shemilt.",
+      "url": "http://www.bbc.co.uk/sport/cricket/articles/c6x2v277z89eo",
+      "urlToImage": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/7e3e/live/4ffc7ce0-dd08-11f1-a701-fddedf244c16.jpg",
+      "publishedAt": "2026-11-10T14:22:13.7138833Z",
+      "content": "It leaves the ball in the court of the other Australian players involved, the coaching staff and CA.\r\nOn Tuesday, CA chief executive Todd Greenberg said, with a straight face, he did not see \"any com… [+3184 chars]"
+    },
+    {
+      "source": { "id": "the-sport-bible", "name": "The Sport Bible" },
+      "author": "Brendan McGilligan",
+      "title": "Ricky Ponting urges Australia to drop two players after 'embarrassing' Bangladesh defeat",
+      "description": "Cricket icon Ricky Ponting urges Australia to drop two players after an 'embarrassing' defeat to Bangladesh.",
+      "url": "https://www.thesportbible.com/other/cricket-australia-bangladesh-ricky-ponting-test-defeat-239189-20260817",
+      "urlToImage": "https://resizer.ladbiblegroup.com/ogimage/v3/assets/blta90d05ad41a54a71/bltcca9128b7de79d43/6a82be58f2fc6f234842e460/Hasan_Mahmud_of_Bangladesh_celebrates_after_taking_the_wicket_of_Travis_Head_of_Australia_during_day_three_of_the_First_Test_Match_in_the_series_between_Australia_and_Bangladesh_at_Marrara_Stadium_on_August_15_2026_in_D.jpg",
+      "publishedAt": "2026-08-17T08:25:29Z",
+      "content": null
+    },
+    {
+      "source": { "id": "espn-cric-info", "name": "ESPN Cric Info" },
+      "author": null,
+      "title": "PCB hands Umar Akmal three-year ban from all cricket | ESPNcricinfo.com",
+      "description": "Penalty after the batsman pleaded guilty to not reporting corrupt approaches | ESPNcricinfo.com",
+      "url": "http://www.espncricinfo.com/story/_/id/29103103/pcb-hands-umar-akmal-three-year-ban-all-cricket",
+      "urlToImage": "https://a4.espncdn.com/combiner/i?img=%2Fi%2Fcricket%2Fcricinfo%2F1099495_800x450.jpg",
+      "publishedAt": "2020-04-27T11:41:47Z",
+      "content": "Umar Akmal's troubled cricket career has hit its biggest roadblock yet, with the PCB handing him a ban from all representative cricket for three years after he pleaded guilty of failing to report det… [+1506 chars]"
+    },
+    {
+      "source": { "id": "espn-cric-info", "name": "ESPN Cric Info" },
+      "author": null,
+      "title": "What we learned from watching the 1992 World Cup final in full again | ESPNcricinfo.com",
+      "description": "Wides, lbw calls, swing - plenty of things were different in white-ball cricket back then | ESPNcricinfo.com",
+      "url": "http://www.espncricinfo.com/story/_/id/28970907/learned-watching-1992-world-cup-final-full-again",
+      "urlToImage": "https://a4.espncdn.com/combiner/i?img=%2Fi%2Fcricket%2Fcricinfo%2F1219926_1296x729.jpg",
+      "publishedAt": "2020-03-30T15:26:05Z",
+      "content": "Last week, we at ESPNcricinfo did something we have been thinking of doing for eight years now: pretend-live ball-by-ball commentary for a classic cricket match. We knew the result, yes, but we tried… [+6823 chars]"
+    }
+  ]
+}
