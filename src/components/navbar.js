@@ -2,6 +2,8 @@
 import React, { Component } from 'react';
 
 export default class Navbar extends Component {
+  categories = ['business', 'entertainment', 'general', 'health', 'science', 'sports', 'technology'];
+
   render() {
     return (
       <div>
@@ -19,17 +21,28 @@ export default class Navbar extends Component {
               <div className="drawer-body mb-2 md:mb-0">
                 <ul className="nav navbar-nav me-auto">
                   <li className="nav-item">
-                    <a className="nav-link " aria-current="page" href="/">Home</a>
+                    <a className="nav-link" aria-current="page" href="/">Home</a>
                   </li>
                   <li className="nav-item">
                     <a className="nav-link" href="/about">About</a>
                   </li>
+                  {this.categories.map((category) => (
+                    <li className="nav-item" key={category}>
+                      <button
+                        type="button"
+                        className="nav-link btn btn-link text-start"
+                        onClick={() => this.props.setCategory(category)}
+                      >
+                        {category}
+                      </button>
+                    </li>
+                  ))}
                 </ul>
               </div>
             </dialog>
           </div>
         </nav>
       </div>
-    )
+    );
   }
 }
