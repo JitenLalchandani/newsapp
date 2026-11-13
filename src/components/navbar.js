@@ -1,6 +1,6 @@
 
 import React, { Component } from 'react';
-
+import { Link } from "react-router-dom";
 export default class Navbar extends Component {
   categories = ['business', 'entertainment', 'general', 'health', 'science', 'sports', 'technology'];
 
@@ -9,34 +9,22 @@ export default class Navbar extends Component {
       <div>
         <nav className="navbar md:navbar-expand bg-1">
           <div className="container-fluid">
-            <a className="navbar-brand" href="/">Navbar</a>
+            <Link className="navbar-brand" to="/">Navbar</Link>
             <button className="btn-icon navbar-toggler" type="button" data-bs-toggle="drawer" data-bs-target="#navbarDrawer" aria-controls="navbarDrawer" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon" aria-hidden="true"></span>
             </button>
             <dialog className="drawer drawer-end" tabIndex="-1" id="navbarDrawer" aria-labelledby="navbarDrawerLabel">
-              <div className="drawer-header">
-                <h5 className="drawer-title" id="navbarDrawerLabel">Menu</h5>
-                <button type="button" className="btn-close" data-bs-dismiss="drawer" aria-label="Close"></button>
-              </div>
               <div className="drawer-body mb-2 md:mb-0">
                 <ul className="nav navbar-nav me-auto">
                   <li className="nav-item">
-                    <a className="nav-link" aria-current="page" href="/">Home</a>
+                    <Link className="nav-link" aria-current="page" to="/">Home</Link>
                   </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="/about">About</a>
-                  </li>
-                  {this.categories.map((category) => (
-                    <li className="nav-item" key={category}>
-                      <button
-                        type="button"
-                        className="nav-link btn btn-link text-start"
-                        onClick={() => this.props.setCategory(category)}
-                      >
-                        {category}
-                      </button>
-                    </li>
-                  ))}
+                  <li className="nav-item"><Link className="nav-link" to="/sports">sports</Link></li>
+                  <li className="nav-item"><Link className="nav-link" to="/general">General</Link></li>
+                  <li className="nav-item"><Link className="nav-link" to="/science">science</Link></li>
+                  <li className="nav-item"><Link className="nav-link" to="/business">business</Link></li>
+                  <li className="nav-item"><Link className="nav-link" to="/entertainment">entertainment</Link></li>
+                  <li className="nav-item"><Link className="nav-link" to="/health">health</Link></li>
                 </ul>
               </div>
             </dialog>
